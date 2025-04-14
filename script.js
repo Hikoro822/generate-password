@@ -28,7 +28,7 @@ const generatePassword = () => {
 
 const animatePassword = (password) => {
     let i = 0
-    // inputPassword.value = ''
+    inputPassword.value = ''
     statusMessage.textContent = 'Генерируется...'
 
 
