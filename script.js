@@ -49,6 +49,7 @@ const copyToClipBoard = () => {
 
     navigator.clipboard.writeText(password)
         .then(() => {
+            inputPassword.value = ''
             copyBtn.textContent = 'Скопировано!'
             inputPassword.style.background = 'green'
 
